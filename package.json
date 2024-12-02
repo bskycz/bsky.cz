@@ -7,7 +7,7 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "format": "prettier --write src/**/*.md",
+    "format": "prettier --write src/**/*.md --prose-wrap=always",
     "astro": "astro"
   },
   "dependencies": {
