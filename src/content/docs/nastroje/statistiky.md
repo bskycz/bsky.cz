@@ -13,11 +13,12 @@ Bluesky. Vetšina ostatních nástrojů čerpá data z tohoto webu.
 
 ### Kdo má nejvíce sledujících?
 
-Nejvíce sledujících má americký spisovatel
-[Stephen King](https://bsky.app/profile/stephenking.bsky.social) (~47.5k).
-Statistiky nejsledovanějších účtů najdete na webu https://blueskystats.online.
-Tento web spravuje
-[@xvoy.bsky.social](https://bsky.app/profile/xvoy.bsky.social)
+Nejaktuálnější statistiky nejsledovanějších účtů najdete na webu
+https://bstat.app. Nejvíce sledujících má samozřejmě profil [@bsky.app](https://bstat.app/profile/bsky.app).
+Mezi stálice patří například herec [George Takei](https://bsky.app/profile/georgetakei.bsky.social) nebo spisovatel 
+[Neil Gaiman](https://bsky.app/profile/neilhimself.neilgaiman.com) či [Stephan King](https://bsky.app/profile/stephenking.bsky.social).
+
+
 
 ### České satistiky
 
