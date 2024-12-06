@@ -12,7 +12,8 @@ https://bsky.app/profile/pfrazee.com/post/3jhnzcfawac27
 
 Platforma kombinuje výhody federativních a peer-to-peer architektur s důrazem na
 uživatelskou přívětivost a transparentnost. Bluesky uživatelům poskytuje větší
-kontrolu nad jejich daty a identitou. Více informací naleznete [zde](https://blueskyweb.zendesk.com/hc/en-us/articles/19002666608397-What-is-Bluesky).
+kontrolu nad jejich daty a identitou. Více informací naleznete
+[zde](https://blueskyweb.zendesk.com/hc/en-us/articles/19002666608397-What-is-Bluesky).
 
 ### Kdo Bluesky vlastní?
 
