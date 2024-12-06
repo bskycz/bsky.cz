@@ -48,7 +48,7 @@ Chybí vám TweetDeck pro Bluesky? Vyzkoušejte DeckBlue!
 Tato aplikace nabízí správu více sloupců s obsahem, takže snadno sledujete konverzace,
 trendy i uživatele na jednom místě. Ideální nástroj pro pokročilé uživatele Bluesky.
 
-## [BlueView](https://blueview.app)
+### [BlueView](https://blueview.app)
 
 Webová aplikace BlueView je jednoduchý nástroj umožnující procházení veřejných
 příspěvků na platformě Bluesky.
