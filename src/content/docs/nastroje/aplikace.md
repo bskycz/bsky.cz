@@ -44,13 +44,9 @@ Bluesky. Aplikace je dostupná na
 
 ### [DeckBlue](https://deck.blue/)
 
-Chybí Vám TweetDeck pro Bluesky? DeckBlue je přesně pro Vás!
-DeckBlue je aplikace vytvořená pro uživatele platformy Bluesky, která přináší
-podobné funckionality jako kdysi populární TweetDeck. Nabízí možnost spravovat více sloupců
-s různými proudy obsahu, což uživatelům umožňuje snadno sledovat konkrétní
-konverzace, trendy nebo uživatele na jednom místě. DeckBlue cílí na zvýšení
-efektivity a přehlednosti při používání Bluesky, což z něj činí ideální nástroj
-pro pokročilé uživatele sociálních sítí.
+Chybí vám TweetDeck pro Bluesky? Vyzkoušejte DeckBlue!
+Tato aplikace nabízí správu více sloupců s obsahem, takže snadno sledujete konverzace,
+trendy i uživatele na jednom místě. Ideální nástroj pro pokročilé uživatele Bluesky.
 
 ## [BlueView](https://blueview.app)
 
