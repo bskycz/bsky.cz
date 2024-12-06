@@ -2,9 +2,11 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwind from "@astrojs/tailwind";
+
 // Markdown plugins
 import links from './src/markdown/links.js';
-import youtube from './src/markdown/youtube.js';
+import youtube from "./src/markdown/youtube.js";
+import bluesky from "./src/markdown/bluesky.js";
 
 const site = "https://wiki.bsky.cz";
 
@@ -12,9 +14,10 @@ export default defineConfig({
 	site,
 	//base: '/wiki',
 	markdown: {
-		remarkPlugins: [links, youtube]
+		remarkPlugins: [links, youtube, bluesky]
 	},
 	integrations: [
+		//embeds(),
 		starlight({
 			title: 'Wiki.bsky.cz',
 			tableOfContents: true,

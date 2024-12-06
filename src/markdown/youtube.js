@@ -13,7 +13,7 @@ export default function youtube() {
 
 					if (id) {
 						node.type = 'html';
-						node.value = `<iframe src="https://www.youtube.com/embed/${id}?rel=0&controls=1" allowfullscreen  style="aspect-ratio: 16 / 9; width: 100%; border: 0"></iframe></>`;
+						node.value = `<iframe src="https://www.youtube.com/embed/${id}?rel=0&controls=1" allowfullscreen  style="aspect-ratio: 16 / 9; width: 100%; border: 0"></iframe>`;
 					}
 				}
 			}

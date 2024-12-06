@@ -1,5 +1,7 @@
 ---
 title: Aplikace
+sidebar:
+  order: 1
 ---
 
 ## Mobilní aplikace

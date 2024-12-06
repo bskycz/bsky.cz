@@ -2,6 +2,7 @@
 title: Základní statistiky Bluesky
 sidebar:
   label: Statistiky
+  order: 2
 ---
 
 ### Kolik má Bluesky uživatel?
@@ -10,6 +11,8 @@ Nejrelevantnější informace a základní statistikách získáte na webu
 https://bsky.jazco.dev/stats. Tento web spravuje
 [@jaz.bsky.social](https://bsky.app/profile/jaz.bsky.social), člen core týmu
 Bluesky. Vetšina ostatních nástrojů čerpá data z tohoto webu.
+
+Živé počítadlo uživatelů najdete na webu https://bcounter.nat.vg
 
 ### Kdo má nejvíce sledujících?
 
