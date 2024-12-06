@@ -6,7 +6,7 @@ sidebar:
 
 ## Mobilní aplikace
 
-### Oficiální aplikace [Bluesky](https://bsky.app)
+### [Bluesky](https://bsky.app) - oficiální aplikace
 
 Oficiální aplikaci Bluesky pro Web, iOS a Android si můžete stáhnout z
 následujících odkazů:
