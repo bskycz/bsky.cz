@@ -1,8 +1,19 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import tailwind from "@astrojs/tailwind";
+// Markdown plugins
+import links from './src/markdown/links.js';
+import youtube from './src/markdown/youtube.js';
+
+const site = "https://wiki.bsky.cz";
 
 export default defineConfig({
+	site,
+	//base: '/wiki',
+	markdown: {
+		remarkPlugins: [links, youtube]
+	},
 	integrations: [
 		starlight({
 			title: 'Wiki.bsky.cz',
@@ -26,5 +37,6 @@ export default defineConfig({
 				{label: 'O nás', link: '/o-nas'},
 			],
 		}),
+		tailwind({applyBaseStyles: false})
 	],
 });

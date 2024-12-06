@@ -2,8 +2,7 @@ import starlightPlugin from '@astrojs/starlight-tailwind';
 
 /** @type {import('tailwindcss').Config} */
 export default {
-	site: "https://wiki.bsky.cz",
-	base: '/wiki',
+
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {},
