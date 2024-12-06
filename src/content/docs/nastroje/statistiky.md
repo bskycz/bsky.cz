@@ -13,12 +13,12 @@ Bluesky. Vetšina ostatních nástrojů čerpá data z tohoto webu.
 
 ### Kdo má nejvíce sledujících?
 
-Nejaktuálnější statistiky nejsledovanějších účtů najdete na webu
-https://bstat.app. Nejvíce sledujících má samozřejmě profil [@bsky.app](https://bstat.app/profile/bsky.app).
-Mezi stálice patří například herec [George Takei](https://bsky.app/profile/georgetakei.bsky.social) nebo spisovatel 
-[Neil Gaiman](https://bsky.app/profile/neilhimself.neilgaiman.com) či [Stephan King](https://bsky.app/profile/stephenking.bsky.social).
-
-
+Statistiky nejsledovanějších účtů najdete na webu
+https://bstat.app. Nejvíce sledujících má samozřejmě profil
+[@bsky.app](https://bstat.app/profile/bsky.app). Mezi hvězdné účty patří například
+herec [George Takei](https://bsky.app/profile/georgetakei.bsky.social) nebo
+spisovatel [Neil Gaiman](https://bsky.app/profile/neilhimself.neilgaiman.com) či
+[Stephan King](https://bsky.app/profile/stephenking.bsky.social).
 
 ### České satistiky
 
