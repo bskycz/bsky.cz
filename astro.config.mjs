@@ -8,7 +8,7 @@ import links from './src/markdown/links.js';
 import youtube from "./src/markdown/youtube.js";
 import bluesky from "./src/markdown/bluesky.js";
 
-const site = "https://wiki.bsky.cz";
+const site = "https://new.bsky.cz";
 
 export default defineConfig({
 	site,
@@ -19,7 +19,7 @@ export default defineConfig({
 	integrations: [
 		//embeds(),
 		starlight({
-			title: 'Wiki.bsky.cz',
+			title: 'bsky.cz',
 			tableOfContents: true,
 			social: {
 				github: 'https://github.com/bskycz',
