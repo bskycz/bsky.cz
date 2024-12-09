@@ -23,6 +23,8 @@ export default defineConfig({
 			tableOfContents: true,
 			social: {
 				github: 'https://github.com/bskycz',
+				blueSky: "https://bsky.app/profile/bsky.cz",
+				discord: 'https://discord.com/invite/DT6VcuEvXx',
 			},
 			editLink: {
 				baseUrl: 'https://github.com/bskycz/wiki/edit/main/'
