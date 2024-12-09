@@ -6,11 +6,12 @@ sidebar:
 
 ## Kroužky a skupiny
 
-Hodně oblíbenou kratochvílí jsou kroužky a skupiny, které čas od času zaplaví
-celý Bluesky.
+Hodně oblíbenou kratochvílí jsou kroužky a skupiny, které čas od času zaplaví celý Bluesky.
 
 - https://skycle.app
 - https://skircle.me
+
+[![](skycle.png)](https://skycle.app/@bsky.cz)
 
 ## Jaké jsi zvíře?
 
