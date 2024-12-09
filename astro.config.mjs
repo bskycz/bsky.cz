@@ -31,7 +31,9 @@ export default defineConfig({
 				'./src/style.css',
 			],
 			logo: {
-				src: './src/assets/logo.svg',
+				light: './src/assets/light-logo.svg',
+				dark: './src/assets/dark-logo.svg',
+				replacesTitle: true,
 			},
 			sidebar: [
 				{label: 'Domů', link: '/'},
