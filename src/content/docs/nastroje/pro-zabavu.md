@@ -16,3 +16,8 @@ Hodně oblíbenou kratochvílí jsou kroužky a skupiny, které čas od času za
 ## Jaké jsi zvíře?
 
 Jste pavouk, sova nebo motýl? Zjistěte to na https://skyzoo.blue/stats
+
+## Jak to frčí?
+
+Webová aplikace [firesky.tv](https://firesky.tv/) v reálném čase zobrazuje veškerý obsah publikovaný na Bluesky.
+Aplikace umožnuje filtraci podle klíčových slov nebo uživatelů. Nastavený filtr je pak možné sledovat jako RSS.
