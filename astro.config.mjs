@@ -21,7 +21,7 @@ export default defineConfig({
 			title: 'bsky.cz',
 			locales: {
 				root: {
-					label: 'Czech',
+					label: 'Česky',
 					lang: 'cs',
 				},
 			},
