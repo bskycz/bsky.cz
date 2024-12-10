@@ -1,7 +1,7 @@
 ---
-title: Vyhledávání dat v Bluesky
+title: Vyhledávání na Bluesky
 sidebar:
-  label: Vyhledávání
+  label: Vyhledávání na Bluesky
   order: 2
 ---
 

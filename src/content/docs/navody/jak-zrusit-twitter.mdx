@@ -1,9 +1,11 @@
 ---
 title: Jak zálohovat a zrušit Twitter
 sidebar:
-  label: Zrušení Twitter
+  label: Jak zrušit Twitter
   order: 999
 ---
+
+import { Steps } from '@astrojs/starlight/components';
 
 ## Proč chceš zrušit Twitter?
 
@@ -19,11 +21,13 @@ a hloupých změn, jsem měl obavy, že zničí mou oblíbenou platformu – a b
 
 ## Jak zálohovat Twitter
 
+<Steps>
 1. Jděte do **[Nastavení > Váš účet](https://x.com/settings/account) > Stáhněte si archiv s vašimi daty**
    ![](twitter-download-archive.png)
-2. Zadejte heslo a vyberte metodu ověření (email) poté zadejte jednorázové heslo
-3. Vyžádejte si archiv a počkejte na email ![](twitter-request-archive.png)
+2. Zadejte heslo a vyberte metodu ověření (email) poté zadejte zaslané **jednorázové heslo**
+3. Vyžádejte si archiv a **počkejte na email** ![](twitter-request-archive.png)
 4. Vyčkejte na email s **odkazem na stažení archivu**
+</Steps>
 
 ## Vyplatí se promazat staré tweety?
 
@@ -43,6 +47,7 @@ Pokud přesto chcete smazat staré tweety, můžete použít některý z násled
 
 ### Jak použít tweetXer
 
+<Steps>
 1. Vyžádejte si **[archiv s vašimi daty](https://x.com/settings/account)** rozbalte si získaný archív
 2. Přihlašte se do [Twitter](https://twitter.com)
 3. Otevřete konzoli přohlížeče (`F12` nebo `Cmd + Option + J` na Macu)
@@ -50,3 +55,4 @@ Pokud přesto chcete smazat staré tweety, můžete použít některý z násled
 5. Skript nahoře na stránce přidá modré panel ![](TweetXer.png)
 6. Klikněte na tlačítko `Vybrat soubor` a nahrajte `tweet-headers.js` nebo `tweets.js` z vašeho archivu
 7. Počkejte do smazání **všech svých tweetů** - mazání běží rychlostí cca 5-10 tweetů za sekundu
+</Steps>

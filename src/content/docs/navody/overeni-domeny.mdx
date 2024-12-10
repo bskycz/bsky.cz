@@ -1,43 +1,15 @@
 ---
-title: Jak ověřit svůj účet Bluesky?
+title: Jak ověřit vlastní doménu na Bluesky?
 sidebar:
-  label: Oveření účtu
+  label: Oveření domény
   order: 1
 ---
+import { Steps } from '@astrojs/starlight/components';
 
-## Co je to handle?
+Předpokládejme, že máte ve vlastnictví doménu `vasejmeno.cz` a chcete tuto doménu použít jako [handle/přezdívku](/co-je-to/handle) na Bluesky.
 
-Handle je vaše **unikátní uživatelské jméno** (přezdívka) - které vás na platformě reprezentuje. Na rozdíl od jiných
-sociálních sítí však Bluesky přináší jedinečný přístup: můžete si vytvořit handle nejen ve standardním formátu
-`@uzivatelskejmeno.bsky.social`, ale také **využít vlastní doménu**.
-
-Díky vlastní doméně můžete mít na Bluesky **unikátní handle**, který nikdo jiný nemůže **podvrhnout nebo ukrást**.
-Zároveň to je výborná forma verifikace vašeho účtu, protože kontrolu nad vlastní doménou máte jen vy.
-
-### Proč si vybrat vlastní doménu?
-
-Příkladem mohou být český [@irozhlas.cz](https://bsky.app/profile/irozhlas.cz) nebo zahraniční
-[@cnn.com](https://bsky.app/profile/cnn.com), které tímto jednoznačně potvrzují, že jde o **oficiální účty** těchto
-médií.
-
-- Získáte **nezaměnitelný handle**, který nikdo jiný nemůže mít.
-- Handle s vlastní doménou je **důvěryhodnější**.
-- Nikdo vám nemůže **podvrhnout účet** - vydávat se za vás.
-
-### Nechci doménu registrovat!
-
-Chcete mít na Bluesky hezký handle (přezdívku), ale nechcete si kupovat doménu můžete využít služby
-[Vanity](https://vanity.blue/), která zdarma nabízí poměrně hezké subdomény `@<vasejmeno>.[něco].blue`.
-
-Tady v čechách je k dispozici služba https://czesky.online, která nabízí handle ve formátu `@<vasejmeno>.czesky.online`.
-
-## Jak ověřit vlastní doménu?
-
-Nejprve budete potřebovat vlastní doménu, kterou si můžete zakoupit u
-[různých registrátorů](https://www.nic.cz/whois/registrars/). Předpokládejme, že máte ve vlastnictví doménu
-`vasejmeno.cz` a chcete jí použít jako handle na Bluesky.
-
-1. **Přihlaste se** na svůj účet na Bluesky.
+<Steps>
+1. **Přihlaste se** na svůj účet na [webu Bluesky](https://bsky.app).
 2. Podívejte se do **[Settings > Account](https://bsky.app/settings/account) > Handle**
 3. Klikněte na **I have my own domain**. ![](i-have-my-own-domain.png)
 4. Zdejte svou doménu `vasejmeno.cz` ![](change-handle.png)
@@ -53,13 +25,14 @@ Nejprve budete potřebovat vlastní doménu, kterou si můžete zakoupit u
 
 6. Vraťte se Bluesky a klikněte na **Verify DNS Record** - tím ověření dokončíte. Změna handle může v závislosti na
    vašem DNS serveru trvat až 24 hodin.
+</Steps>
 
-:::tip[Kam dál?]
+:::note[Kam dál?]
 Podívejte se na tutoriál
 [How to verify your Bluesky account](https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial).
 :::
 
-#### Jak ověřit nastavení DNS záznamu?
+### Kontrola nastavení DNS
 
 Pro oveření nastavení DNS záznamu můžete použít například nástroj
 [DIG od Google](https://toolbox.googleapps.com/apps/dig/#TXT/) nebo [DNS lookup](https://dnslookup.online/txt/). Vypište
@@ -72,7 +45,7 @@ Další možností je použít nástroj `dig` v příkazové řádce:
 $ dig -t TXT _atproto.vasejmeno.cz
 ```
 
-konkrétní příklad pro doménu `bsky.cz`:
+konkrétní příklad pro doménu `bsky.cz`
 
 ```shell
 $ dig -t TXT _atproto.bsky.cz
@@ -80,7 +53,7 @@ $ dig -t TXT _atproto.bsky.cz
 
 vygeneruje následující výstup:
 
-```text
+```text {13}
 ; <<>> DiG 9.10.6 <<>> -t TXT _atproto.bsky.cz
 ;; global options: +cmd
 ;; Got answer:
@@ -100,3 +73,26 @@ _atproto.bsky.cz.	600	IN	TXT	"did=did:plc:rtlrfotcyulei426noqa6fhn"
 ;; WHEN: Mon Dec 09 12:29:04 CET 2024
 ;; MSG SIZE  rcvd: 94
 ```
+
+## Nemám vlastní doménu, co teď?
+
+Vlastní `.cz` doménu si můžete zaregistrovat u některého z [dostupných registrátorů](https://www.nic.cz/whois/registrars/),
+přičemž cena obvykle činí přibližně 250&nbsp;Kč za rok.
+
+Pokud vlastní doménu **nechcete kupovat**, můžete využít třeba služby [Vanity](https://vanity.blue/),
+která nabízí oveření handle pomocí subdomény `@<vasejmeno>.[něco].blue` zdarma - snadno tak získáte poměrně atraktivní handle.
+
+Tady v čechách je k dispozici služba https://czesky.online, která nabízí handle ve formátu `@<vasejmeno>.czesky.online`.
+
+## Příjdu o svoji původní přezdívku?
+
+**Ano**, váš původní přezdívka/handle bude uvolněn pro nově registrované účty. Na Bluesky už budete vystupovat pouze pod **svým novým handle**.
+
+:::tip[Záložní účet]
+Pokud si přesto přejete svůj původní handle zachovat, vytvořte si ihned po změně handle záložní účet na Bluesky se svým původním handle.
+:::
+
+## Přijdu změnou handle o sledující?
+
+**Ne, o své sledující nepřijdete**. Všichni, kdo vás sledují, zůstanou propojeni s vaším účtem i po změně handle.
+Automaticky vás budou sledovat pod vaším novým handlem, aniž by museli cokoliv dělat nebo měnit.
