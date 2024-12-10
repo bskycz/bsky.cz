@@ -13,7 +13,7 @@ data z tohoto webu.
 
 ![](users-stats.png)
 
-Živé počítadlo uživatelů najdete na webu https://bcounter.nat.vg
+Živé počítadlo uživatelů najdete na webu https://bcounter.nat.vg, https://bsky-users.theo.io/ nebo
 
 ### Kdo má nejvíce sledujících?
 
@@ -23,7 +23,7 @@ Statistiky nejsledovanějších účtů najdete na webu https://bstat.app. Nejv�
 [Neil Gaiman](https://bsky.app/profile/neilhimself.neilgaiman.com) či
 [Stephan King](https://bsky.app/profile/stephenking.bsky.social).
 
-### České satistiky
+### České statistiky
 
 České statistiky najdete na webu https://bsky.cz. Tento web spravuje [@bsky.cz](https://bsky.app/profile/bsky.cz)
 

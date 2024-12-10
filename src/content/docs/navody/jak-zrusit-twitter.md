@@ -49,4 +49,4 @@ Pokud přesto chcete smazat staré tweety, můžete použít některý z násled
 4. Vložte [celý skript](https://raw.githubusercontent.com/lucahammer/tweetXer/main/tweetXer.js) do konzole a stiskněte `Enter`
 5. Skript nahoře na stránce přidá modré panel ![](TweetXer.png)
 6. Klikněte na tlačítko `Vybrat soubor` a nahrajte `tweet-headers.js` nebo `tweets.js` z vašeho archivu
-7. Čekejte do smazání všech tweetů, které se mažou rychlostí cca 5-10 za sekundu
+7. Počkejte do smazání **všech svých tweetů** - mazání běží rychlostí cca 5-10 tweetů za sekundu
