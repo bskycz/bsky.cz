@@ -12,7 +12,6 @@ const site = "https://beta.bsky.cz";
 
 export default defineConfig({
 	site,
-	//base: '/wiki',
 	markdown: {
 		remarkPlugins: [links, youtube, bluesky]
 	},
@@ -20,6 +19,12 @@ export default defineConfig({
 		//embeds(),
 		starlight({
 			title: 'bsky.cz',
+			locales: {
+				root: {
+					label: 'Czech',
+					lang: 'cs',
+				},
+			},
 			tableOfContents: true,
 			social: {
 				github: 'https://github.com/bskycz',
