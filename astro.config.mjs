@@ -8,7 +8,7 @@ import links from './src/markdown/links.js';
 import youtube from "./src/markdown/youtube.js";
 import bluesky from "./src/markdown/bluesky.js";
 
-const site = "https://wiki.bsky.cz";
+const site = "https://beta.bsky.cz";
 
 export default defineConfig({
 	site,
