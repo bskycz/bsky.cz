@@ -4,4 +4,7 @@ sidebar:
   label: Starter Pack
 ---
 
+
+https://blueskydirectory.com/starter-packs
+
 https://www.starterpacks.net/
