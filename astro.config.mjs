@@ -45,7 +45,7 @@ export default defineConfig({
 			sidebar: [
 				{label: 'Domů', link: '/'},
 				{label: 'Nástroje', collapsed: false, autogenerate: {directory: 'nastroje', collapsed: true}},
-				{label: 'Vysvětlujeme', collapsed: false, autogenerate: {directory: 'popis', collapsed: true}},
+				{label: 'Vysvětlujeme', collapsed: false, autogenerate: {directory: 'definice', collapsed: true}},
 				{label: 'Návody', collapsed: false, autogenerate: {directory: 'navody', collapsed: true}},
 				{label: 'Naše projekty', collapsed: false, autogenerate: {directory: 'projekty', collapsed: true}},
 				{label: 'O nás', link: '/o-nas'},
