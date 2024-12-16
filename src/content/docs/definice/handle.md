@@ -1,5 +1,5 @@
 ---
-title: Co je to handle?
+title: Co je to handle (přezdívka)?
 sidebar:
   label: Handle (přezdívka)
 ---
