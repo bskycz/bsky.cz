@@ -30,13 +30,13 @@ news, atd.).
 Seznam komunitních štítkovačů https://www.bluesky-labelers.io
 :::
 
-Chcete se dozvědět více o Bluesky a jeho moderaci? Podívejte se
-na [oficiální dokumentaci](https://docs.bsky.app/blog/blueskys-moderation-architecture) k&nbsp;moderaci obsahu.
-
 ## Zajímavé labelery
 
 - [Kraje v Česku labeler](https://bsky.app/profile/czkraje.bsky.social) - označuje příspěvky podle krajů v Česku.
 
 ## Další informace
 
-- [Můj první Bluesky labeler](https://matejvi.cz/vyvoj/muj-prvni-bluesky-labeler/)
+Chcete se dozvědět více o Bluesky a jeho moderaci? Podívejte se
+na [oficiální dokumentaci](https://docs.bsky.app/blog/blueskys-moderation-architecture) k&nbsp;moderaci obsahu.
+
+Koukněte na článek [Můj první Bluesky labeler](https://matejvi.cz/vyvoj/muj-prvni-bluesky-labeler/).
