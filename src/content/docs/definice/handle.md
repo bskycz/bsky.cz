@@ -17,6 +17,10 @@ uživatele – **vše zůstane zachováno** - pouze se změní vaše uživatelsk
 Jak je to možné? Bluesky totiž vnitřně využívá `DID` (Decentralized Identifiers) pro identifikaci uživatelů. Handle je
 pouze **zkráceným zápisem tohoto identifikátoru** - hezký a snadno zapamatovatelný alias.
 
+```text
+https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=bsky.cz
+```
+
 ## Proč používat handle s vlastní doménou?
 
 Díky vlastní doméně můžete mít na Bluesky **zcela unikátní handle**, který nikdo jiný nemůže **podvrhnout nebo ukrást**.
