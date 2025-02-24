@@ -27,5 +27,5 @@ Aplikace umožnuje filtraci podle klíčových slov nebo uživatelů. Nastavený
 
 ## Jaké je vaše bluesky skóre?
 
-Na [blueskyscore.com(https://blueskyscore.com]) můžete zjistit, jaké je vaše skóre na Bluesky.
+Na [blueskyscore.com](https://blueskyscore.com]) můžete zjistit, jaké je vaše skóre na Bluesky.
 Kolik postů denně publikujete, kolik máte sledujících a kolik lidí vás sleduje atd.
