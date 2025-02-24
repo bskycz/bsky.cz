@@ -1,6 +1,14 @@
 ---
-title: Co je Bluesky?
+title: Česká Bluesky komunita
 ---
+
+Vítejte na stránkách české Bluesky komunity 👋. Sdílíme zde praktické informace o sociální platformě Bluesky a technologii [AT Protocol](/definice/at-protokol), které jsou součástí nové generace sociálního internetu.
+
+* [📊 Statistiky českých uživatelů](https://stats.bsky.cz) ([dokumentace](/projekty/ceske-statistiky/))
+* [💬 Komunitní Discord](https://discord.com/invite/DT6VcuEvXx)
+* [🔗 @bsky.cz účet na Bluesky](https://bsky.app/profile/bsky.cz)
+
+## Co je Bluesky?
 
 Bluesky je **decentralizovaná sociální platforma** založená na otevřeném [AT protokolu](https://atproto.com/), který
 umožňuje interoperabilitu mezi aplikacemi a přenositelnost uživatelských účtů. Projekt vznikl v roce 2019
