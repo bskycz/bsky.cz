@@ -25,7 +25,9 @@ Statistiky nejsledovanějších účtů najdete na webu https://bstat.app. Nejv�
 
 ### České statistiky
 
-České statistiky najdete na webu https://bsky.cz. Tento web spravuje [@bsky.cz](https://bsky.app/profile/bsky.cz)
+České statistiky najdete na webu https://stats.bsky.cz. Tento web spravuje [@bsky.cz](https://bsky.app/profile/bsky.cz)
+
+[Více informací o českých statistikách](/projekty/ceske-statistiky)
 
 ### Jaké domény jsou nejpopulárnější?
 
