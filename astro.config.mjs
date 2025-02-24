@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import tailwind from "@astrojs/tailwind";
+import tailwindcss from '@tailwindcss/vite';
 
 // Markdown plugins
 import links from './src/markdown/links.js';
@@ -51,6 +51,8 @@ export default defineConfig({
 				{label: 'O nás', link: '/o-nas'},
 			],
 		}),
-		tailwind({applyBaseStyles: false})
 	],
+	vite: {
+		plugins: [tailwindcss()]
+	}
 });
