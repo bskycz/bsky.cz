@@ -1,6 +1,6 @@
 ---
 title: Česká Bluesky komunita
-description: Sdílíme informace o sociální platformě Bluesky a technologii AT Protocol, které jsou součástí nové generace sociálního
+description: Web české Bluesky komunity. Přinášíme podrobné návody, cenné tipy a praktické triky, které ocení nejen běžní uživatelé, ale i vývojáři a nadšenci.
 ---
 
 Vítejte na stránkách české Bluesky komunity 👋. Sdílíme zde praktické informace o sociální platformě Bluesky a technologii [AT Protocol](/definice/at-protokol), které jsou součástí nové generace sociálního internetu.
