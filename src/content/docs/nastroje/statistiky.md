@@ -13,7 +13,7 @@ data z tohoto webu.
 
 ![](users-stats.png)
 
-Živé počítadlo uživatelů najdete na webu https://bcounter.nat.vg, https://bsky-users.theo.io/ nebo
+Živé počítadlo uživatelů najdete najdete zde https://bcounter.nat.vg nebo zde https://bsky-users.theo.io/.
 
 ### Kdo má nejvíce sledujících?
 

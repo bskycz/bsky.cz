@@ -23,3 +23,9 @@ Jste pavouk, sova nebo motýl? Zjistěte to na https://skyzoo.blue/stats
 
 Webová aplikace [firesky.tv](https://firesky.tv/) v reálném čase zobrazuje veškerý obsah publikovaný na Bluesky.
 Aplikace umožnuje filtraci podle klíčových slov nebo uživatelů. Nastavený filtr je pak možné sledovat jako RSS.
+
+
+## Jaké je vaše bluesky skóre?
+
+Na [blueskyscore.com(https://blueskyscore.com]) můžete zjistit, jaké je vaše skóre na Bluesky.
+Kolik postů denně publikujete, kolik máte sledujících a kolik lidí vás sleduje atd.
