@@ -1,6 +1,6 @@
-# [beta].bsky.cz
+# bsky.cz
 
 Český web o Bluesky
 
 
-https://beta.bsky.cz
+https://bsky.cz
