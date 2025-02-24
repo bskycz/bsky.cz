@@ -18,6 +18,9 @@ export default defineConfig({
 	integrations: [
 		//embeds(),
 		starlight({
+			components: {
+				Head: './src/components/Head.astro',
+			},
 			title: 'bsky.cz',
 			locales: {
 				root: {
