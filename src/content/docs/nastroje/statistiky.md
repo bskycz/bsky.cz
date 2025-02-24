@@ -5,7 +5,7 @@ sidebar:
   order: 2
 ---
 
-### Kolik má Bluesky uživatel?
+### Kolik má Bluesky uživatelů?
 
 Nejrelevantnější informace a základní statistikách získáte na webu https://bsky.jazco.dev/stats. Tento web spravuje
 [@jaz.bsky.social](https://bsky.app/profile/jaz.bsky.social), člen core týmu Bluesky. Vetšina ostatních nástrojů čerpá
