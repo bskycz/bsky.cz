@@ -1,6 +1,6 @@
 ---
 title: Základní statistiky Bluesky
-description: Nejrelevantnější informace a základní statistikách o sociální síti Bluesky. čščřcj
+description: Nejrelevantnější informace a základní statistikách o sociální síti Bluesky.
 sidebar:
   label: Statistiky
   order: 2

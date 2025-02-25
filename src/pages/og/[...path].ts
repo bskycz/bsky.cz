@@ -2,9 +2,7 @@ import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content'
 import { OGImageRoute } from 'astro-og-canvas'
 
-
 type OGImageOptions = Awaited<ReturnType<Parameters<typeof OGImageRoute>[0]['getImageOptions']>>;
-
 
 const allPages = await getCollection('docs')
 const pages = Object.fromEntries(
@@ -25,35 +23,31 @@ export const {getStaticPaths, GET} = OGImageRoute({
 		return {
 			format: 'WEBP',
 			title: data.title || "Bsky.cz",
-			quality: 90,
-			//logo: {path: './src/pages/og/og-logo.png', size: [300]},
+			quality: 95,
+			logo: {path: './src/pages/og/og-logo.png', size: [300]},
 			description: data.description || "Webové stránkách české Bluesky komunity",
-			bgGradient: [[24, 24, 27]],
+			bgGradient: [[24, 24, 27], [17, 11, 25]],
 			border: {color: [17, 113, 254], side: "inline-start", width: 16},
-			padding: 120,
+			padding: 70,
 			font: {
 				title: {
-					families: ['Inter', 'Noto Sans'],
-					weight: 'Medium',
+					families: ['Inter'],
+					lineHeight: 1,
+					weight: 'SemiBold',
+					color: [255, 255, 255],
+					size: 72,
 				},
 				description: {
-					families: ['Inter', 'Noto Sans'],
+					families: ['Inter'],
 					lineHeight: 1.5,
 					weight: 'Normal',
+					color: [191, 193, 201],
+					size: 42,
 				},
 			},
 			fonts: [
-				// Inter
-				'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-normal.woff2',
-				'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-500-normal.woff2',
-				'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-ext-400-normal.woff2',
-				'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-ext-500-normal.woff2',
-
-				// Noto Sans
-				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-400-normal.woff2',
-				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-500-normal.woff2',
-				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-ext-400-normal.woff2',
-				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-ext-500-normal.woff2',
+				'./src/pages/og/Inter-Regular.woff2',
+				'./src/pages/og/Inter-SemiBold.woff2',
 			]
 		}
 	},
