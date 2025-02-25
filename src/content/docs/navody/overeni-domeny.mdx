@@ -1,10 +1,10 @@
 ---
 title: Jak ověřit vlastní doménu na Bluesky?
+description: Ověřte svůj účet a používejte svou vlasní doménu jako handle na sociální síti Bluesky.
 sidebar:
-label: Oveření domény
-order: 1
+  label: Oveření domény
+  order: 1
 ---
-
 
 import { Steps } from '@astrojs/starlight/components';
 
@@ -12,23 +12,19 @@ Předpokládejme, že máte ve vlastnictví doménu `vasejmeno.cz` a chcete tuto
 (přezdívku) na Bluesky - kdy se `@vasejmeno.cz` stane vaší unikátní přezdívkou.
 
 <Steps>
-	1. **Přihlaste se** na svůj účet na [webu Bluesky](https://bsky.app).
-	2. Podívejte se do **[Settings > Account](https://bsky.app/settings/account) > Handle**
-	3. Klikněte na **I have my own domain**. ![](i-have-my-own-domain.png)
-	4. Zdejte svou doménu `vasejmeno.cz` ![](change-handle.png)
-	5. Poté se přepněte do **administrace vaší domény** a vytvořte na svém doménovém serveru `TXT` záznam s hodnotou,
-	kterou
-	vám Bluesky poskytne:
+1. **Přihlaste se** na svůj účet na [webu Bluesky](https://bsky.app).
+2. Podívejte se do **[Settings > Account](https://bsky.app/settings/account) > Handle**
+3. Klikněte na **I have my own domain**. ![](i-have-my-own-domain.png)
+4. Zdejte svou doménu `vasejmeno.cz` ![](change-handle.png)
+5. Poté se přepněte do **administrace vaší domény** a vytvořte na svém doménovém serveru `TXT` záznam s hodnotou, kterou vám Bluesky poskytne:
 
-	- doména: `_atproto`
-	- typ záznamu: `TXT`
-	- TTL (Time To Live): `60`
-	- hodnota (nebo někdy data) `did=did:plc:[vaše hodnota]`
+    - doména: `_atproto`
+    - typ záznamu: `TXT`
+    - TTL (Time To Live): `60`
+    - hodnota (nebo někdy data) `did=did:plc:[vaše hodnota]`
+    Váš DNS záznam může vypadat například takto ![](dns-record.png)
 
-	Váš DNS záznam může vypadat například takto ![](dns-record.png)
-
-	6. Vraťte se Bluesky a klikněte na **Verify DNS Record** - tím ověření dokončíte. Změna handle může v závislosti na
-	vašem DNS serveru trvat až 24 hodin.
+6. Vraťte se Bluesky a klikněte na **Verify DNS Record** - tím ověření dokončíte. Změna handle může v závislosti na vašem DNS serveru trvat až 24 hodin.
 </Steps>
 
 :::note[Kam dál?]
@@ -89,19 +85,14 @@ handle.
 
 Tady v čechách je k dispozici služba https://czesky.online, která nabízí handle ve formátu `@<vasejmeno>.czesky.online`.
 
-## Příjdu o svoji původní přezdívku?
+## Časté ozákazy
+#### Příjdu o svoji původní přezdívku?
 
-**Ne**, pokud změníte svůj výchozí Bluesky username (s příponou `.bsky.social`) na URL webové stránky,
-váš původní `.bsky.social` username bude pro vás rezervován a nikdo jiný si ho nemůže zaregistrovat.
+**NE**. Pokud změníte svůj výchozí Bluesky username (s příponou `.bsky.social`) na URL webové stránky,
+váš **původní `.bsky.social` username bude pro vás rezervován** a nikdo jiný si ho nemůže zaregistrovat.
+Pro každý účet platí, že je rezervována *pouze vaše poslední* `.bsky.social` přezdívka.
 
-Pro každý účet platí, že je rezervována pouze vaše poslední `.bsky.social` přezdívka.
+#### Přijdu změnou handle o sledující?
 
-## Přijdu změnou handle o sledující?
-
-**Ne**, o své sledující změnou přezdívky nepřijdete. Všichni, kdo vás sledují, zůstanou propojeni s vaším účtem i po
+**NE**. Změnou přezdívky o své sledující nepřijdete. Všichni, kdo vás sledují, zůstanou propojeni s vaším účtem i po
 změně handle. Automaticky vás budou sledovat pod vaším novým handlem, aniž by museli cokoliv dělat nebo měnit.
-
-## Odkazy
-
-- [How to verify your Bluesky account](https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial) - tutoriál
-od Bluesky
