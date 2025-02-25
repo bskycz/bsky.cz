@@ -25,6 +25,7 @@ export const {getStaticPaths, GET} = OGImageRoute({
 		return {
 			format: 'WEBP',
 			title: data.title || "Bsky.cz",
+			quality: 90,
 			//logo: {path: './src/pages/og/og-logo.png', size: [300]},
 			description: data.description || "Webové stránkách české Bluesky komunity",
 			bgGradient: [[24, 24, 27]],
@@ -32,23 +33,21 @@ export const {getStaticPaths, GET} = OGImageRoute({
 			padding: 120,
 			font: {
 				title: {
-					families: [
-						"Inter",
-						"Noto Sans"
-					]
+					families: ['Inter', 'Noto Sans'],
+					weight: 'Medium',
 				},
 				description: {
-					families: [
-						"Inter",
-						"Noto Sans"
-					], lineHeight: 1.5
+					families: ['Inter', 'Noto Sans'],
+					lineHeight: 1.5,
+					weight: 'Normal',
 				},
 			},
 			fonts: [
 				// Inter
 				'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-normal.woff2',
 				'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-500-normal.woff2',
-				// Noto
+
+				// Noto Sans
 				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-400-normal.woff2',
 				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-500-normal.woff2'
 			]
