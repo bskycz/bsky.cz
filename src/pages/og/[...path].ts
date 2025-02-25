@@ -46,10 +46,14 @@ export const {getStaticPaths, GET} = OGImageRoute({
 				// Inter
 				'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-normal.woff2',
 				'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-500-normal.woff2',
+				'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-ext-400-normal.woff2',
+				'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-ext-500-normal.woff2',
 
 				// Noto Sans
 				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-400-normal.woff2',
-				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-500-normal.woff2'
+				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-500-normal.woff2',
+				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-ext-400-normal.woff2',
+				'https://cdn.jsdelivr.net/fontsource/fonts/noto-sans@latest/latin-ext-500-normal.woff2',
 			]
 		}
 	},
