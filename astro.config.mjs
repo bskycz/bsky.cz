@@ -29,11 +29,11 @@ export default defineConfig({
 				},
 			},
 			tableOfContents: true,
-			social: {
-				github: 'https://github.com/bskycz',
-				blueSky: "https://bsky.app/profile/bsky.cz",
-				discord: 'https://discord.com/invite/DT6VcuEvXx',
-			},
+			social: [
+				{icon: "github", href: 'https://github.com/bskycz', label: "GitHub"},
+				{icon: "blueSky", href: 'https://bsky.app/profile/bsky.cz', label: "BlueSky"},
+				{icon: "discord", href: 'https://discord.com/invite/DT6VcuEvXx', label: "Discord"},
+			],
 			editLink: {
 				baseUrl: 'https://github.com/bskycz/wiki/edit/main/'
 			},
