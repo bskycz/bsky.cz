@@ -41,6 +41,7 @@ patřit, [neváhejte se ozvat](mailto:roman@ozana.cz), nebo poslat [pull request
 ### Média
 
 - [Česká televize](https://bsky.app/profile/ceskatelevize.cz)
+- [ČT Sport](https://bsky.app/profile/did:plc:4o5kxkh47pwuf55lf3mnlbr3)
 - [iRozhlas](https://bsky.app/profile/irozhlas.cz)
 - [Denik N](https://bsky.app/profile/denikn.cz)
 - [Vesmír](https://bsky.app/profile/vesmir.bsky.social)
