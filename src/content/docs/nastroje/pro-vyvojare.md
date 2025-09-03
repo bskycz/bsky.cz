@@ -13,9 +13,10 @@ Zde najdete různé nástroje pro interakci a průzkum AT Protocol nebo Bluesky 
 
 Nástroje pro průzkum AT Protocol záznamů:
 
-* https://pdsls.dev/ (umožňuje editovat záznamy)
-* https://astrolabe.at/
-* https://atproto-browser.vercel.app/
+* https://pdsls.dev
+* https://astrolabe.at
+* https://atproto-browser.vercel.app
+* https://sri.xyz/projects/atprotoat
 
 ## Identita
 
