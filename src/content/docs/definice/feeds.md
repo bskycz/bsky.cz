@@ -17,7 +17,7 @@ Každý kanál je vlastně samostatný algoritmus nebo filtr, který určuje, ja
 - **Oficiální kanály** – například „Following“ (příspěvky lidí, které sledujete)
   nebo „[Discover](https://bsky.app/profile/bsky.app/feed/whats-hot)“ (doporučený obsah).
 - **Komunitní kanály** – kdokoli může vytvořit vlastní feed podle zadaných pravidel. Může to být kanál na téma hudby,
-  [zpráv](https://bsky.app/profile/aendra.com/feed/verified-news), [věda](https://bsky.app/profile/bossett.social/feed/for-science),
+  [zpráv](https://bsky.app/profile/aendra.com/feed/verified-news), [vědy](https://bsky.app/profile/bossett.social/feed/for-science),
   umění nebo třeba jen příspěvků s fotkami koček.
 
 Oficiální kanály najdete na profilu [@bsky.app](https://bsky.app/profile/bsky.app) pod záložkou Feeds. Komunitní zase na
