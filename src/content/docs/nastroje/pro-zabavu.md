@@ -4,6 +4,12 @@ sidebar:
   order: 999
 ---
 
+## Bluesky Wrapped
+
+Podobně jako Spotify Wrapped, i Bluesky Wrapped vám na konci roku shrne vaše aktivity na Bluesky.
+
+https://www.madebyolof.com/bluesky-wrapped
+
 ## Kroužky a skupiny
 
 Hodně oblíbenou kratochvílí jsou kroužky a skupiny, které čas od času zaplaví celý Bluesky.
