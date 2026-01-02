@@ -157,10 +157,10 @@
   resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-4.0.2.tgz#2b02901e5368b0db138e0cfcb301353616061c01"
   integrity sha512-SYN/6zq6hJO5tWqbQ2tWT9/jd8ubUkzkBCcF94vByC/ZJ20Mi5GPjFvAh89Yky/aIM+jXxT6W5q4p6l58GKHiQ==
 
-"@astrojs/starlight@^0.36.3":
-  version "0.36.3"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.36.3.tgz#8270f0050f2271e3f0d35da8b198cf7f99e53a73"
-  integrity sha512-5cm4QVQHUP6ZE52O43TtUpsTvLKdZa9XEs4l3suzuY7Ymsbz4ojtoL9NhistbMqM+/qk6fm6SmxbOL6hQ/LfNA==
+"@astrojs/starlight@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.37.1.tgz#7eaece5fbf05c51b9d0111f79a3ccc45ec850ba4"
+  integrity sha512-STNsR5PaDoiW4IgcX17Fp42FfyqwuweWPts/EWEMcFPAeg9Nvpu3UvVCorasYrgfJgaJTeydsOV++0ACA1KYDA==
   dependencies:
     "@astrojs/markdown-remark" "^6.3.1"
     "@astrojs/mdx" "^4.2.3"
@@ -178,6 +178,7 @@
     i18next "^23.11.5"
     js-yaml "^4.1.0"
     klona "^2.0.6"
+    magic-string "^0.30.17"
     mdast-util-directive "^3.0.0"
     mdast-util-to-markdown "^2.1.0"
     mdast-util-to-string "^4.0.0"
@@ -1636,10 +1637,10 @@ astro-expressive-code@^0.41.1:
   dependencies:
     rehype-expressive-code "^0.41.1"
 
-astro-og-canvas@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/astro-og-canvas/-/astro-og-canvas-0.7.2.tgz#ecaf907266dedb33c19f450c0b9323f8f9b5693c"
-  integrity sha512-i7sWbdpl2MMF7wUZqSfzMnhW4c7GQz6s7T4BUJ7E06MqasZRHjJytn0n6D0JJkGDeTpZnU7E00A6Ffx0pRB4kg==
+astro-og-canvas@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/astro-og-canvas/-/astro-og-canvas-0.8.0.tgz#5968fe0477488edffea5b9f2c3c92ce8bcb639d8"
+  integrity sha512-0DUPEC9f5ajcXcY5Enx1KmD0lfW2VtjH69B4sFTQxKM/DdH9eF5MGRmBwjzlnAUGsOcmBXqCtO3lOP78eLlWSw==
   dependencies:
     canvaskit-wasm "^0.40.0"
     deterministic-object-hash "^2.0.2"
@@ -2982,7 +2983,7 @@ lru-cache@^10.4.3:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.4.3.tgz#410fc8a17b70e598013df257c2446b7f3383f119"
   integrity sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==
 
-magic-string@^0.30.21:
+magic-string@^0.30.17, magic-string@^0.30.21:
   version "0.30.21"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.21.tgz#56763ec09a0fa8091df27879fd94d19078c00d91"
   integrity sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==
