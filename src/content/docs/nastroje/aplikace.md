@@ -43,7 +43,7 @@ sledujete konverzace, trendy i uživatele na jednom místě. Ideální nástroj 
 
 ### [BlueView](https://blueview.app)
 
-Webová aplikace BlueView je jednoduchý nástroj umožnující procházení veřejných příspěvků na platformě Bluesky.
+Webová aplikace BlueView je jednoduchý nástroj umožňující procházení veřejných příspěvků na platformě Bluesky.
 
 
 ## Ostatní

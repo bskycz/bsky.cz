@@ -11,7 +11,7 @@ nespokojenosti uživatelů. Dalším rizikem je **náhlá změna pravidel** v d�
 uživatel, vývojář nebo organizace vytvořit **vlastní systém moderace obsahu**, který bude respektovat jeho hodnoty a
 pravidla.
 
-Hlavním prvkem moderace obsahu jsou **labelers** (štítkovače), kteří označují dostupný příspšvky podle předem
+Hlavním prvkem moderace obsahu jsou **labelers** (štítkovače), kteří označují dostupné příspěvky podle předem
 definovaných pravidel. Uživatelé poté rozhodnou, zda označený obsah chtějí _blokovat_, _skrývat_ nebo _zobrazovat_.
 
 [Bluesky Labeler](https://bsky.app/profile/moderation.bsky.app), je pevnou součástí aplikace a pomáhá prosazovat

@@ -24,7 +24,7 @@ https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=bsky.
 ## Proč používat handle s vlastní doménou?
 
 Díky vlastní doméně můžete mít na Bluesky **zcela unikátní handle**, který nikdo jiný nemůže **podvrhnout nebo ukrást**.
-Zároveň to je výborná **forma oveření vašeho účtu**, protože kontrolu nad svou doménou máte jen vy a nikdo jiný.
+Zároveň to je výborná **forma ověření vašeho účtu**, protože kontrolu nad svou doménou máte jen vy a nikdo jiný.
 
 :::note[Návod]
 [Jak ověřit vlastní doménu na Bluesky?](/navody/overeni-domeny)

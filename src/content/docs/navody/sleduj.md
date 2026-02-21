@@ -27,7 +27,7 @@ patřit, [neváhejte se ozvat](mailto:roman@ozana.cz), nebo poslat [pull request
   - [Ústav fyzikální chemie J. Heyrovského AV ČR](https://bsky.app/profile/heyrovskeho-ustav.bsky.social)
   - [Sociologický ústav AV ČR](https://bsky.app/profile/sociologicky.bsky.social)
   - [Ústav dějin umění AV ČR](https://bsky.app/profile/uduavcr.bsky.social)
-  - [Ústavu informatiky AV ČR](https://bsky.app/profile/ics-cas.bsky.social)
+  - [Ústav informatiky AV ČR](https://bsky.app/profile/ics-cas.bsky.social)
 - [Česká společnost ornitologická](https://bsky.app/profile/birdlife.cz)
 - [Velitelství informačních a kybernetických sil](https://bsky.app/profile/veinkys.bsky.social)
 - [Národní institut virologie a bakteriologie](https://bsky.app/profile/nivbcz.bsky.social)

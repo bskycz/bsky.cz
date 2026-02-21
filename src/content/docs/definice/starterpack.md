@@ -4,8 +4,8 @@ sidebar:
   label: Starter pack
 ---
 
-Starter packy - **neboli seznamy uživatel** - jsou na Bluesky skvělý způsob jak začít. Místo zdlouhavého hledání účtů,
-které by tě mohly zajímat, ti tyhle seznamy uživatel **pomohou rychle najít zajímavé lidi**. Starter packy vytvoří
+Starter packy - **neboli seznamy uživatelů** - jsou na Bluesky skvělý způsob jak začít. Místo zdlouhavého hledání účtů,
+které by tě mohly zajímat, ti tyhle seznamy uživatelů **pomohou rychle najít zajímavé lidi**. Starter packy vytvoří
 uživatelé a obsahují doporučené účty a přizpůsobené informační kanály.
 
 - [Největší české účty na Bluesky](https://go.bsky.app/5rRGTZu)

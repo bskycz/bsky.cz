@@ -9,12 +9,12 @@ sidebar:
 ### Kolik má Bluesky uživatelů?
 
 Nejrelevantnější informace a základní statistikách získáte na webu https://bsky.jazco.dev/stats. Tento web spravuje
-[@jaz.bsky.social](https://bsky.app/profile/jaz.bsky.social), člen core týmu Bluesky. Vetšina ostatních nástrojů čerpá
+[@jaz.bsky.social](https://bsky.app/profile/jaz.bsky.social), člen core týmu Bluesky. Většina ostatních nástrojů čerpá
 data z tohoto webu.
 
 ![](users-stats.png)
 
-Živé počítadlo uživatelů najdete najdete zde https://bsky-users.theo.io/.
+Živé počítadlo uživatelů najdete zde https://bsky-users.theo.io/.
 
 ### Kdo má nejvíce sledujících?
 
@@ -22,7 +22,7 @@ Statistiky nejsledovanějších účtů najdete na webu https://bstat.app. Nejv�
 [@bsky.app](https://bstat.app/profile/bsky.app). Mezi hvězdné účty patří například herec
 [George Takei](https://bsky.app/profile/georgetakei.bsky.social) nebo spisovatel
 [Neil Gaiman](https://bsky.app/profile/neilhimself.neilgaiman.com) či
-[Stephan King](https://bsky.app/profile/stephenking.bsky.social).
+[Stephen King](https://bsky.app/profile/stephenking.bsky.social).
 
 ### České statistiky
 

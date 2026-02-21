@@ -2,7 +2,7 @@
 title: Média
 ---
 
-## Česká media
+## Česká média
 
 ## Zahraniční média
 
