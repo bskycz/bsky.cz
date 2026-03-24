@@ -25,8 +25,7 @@ transparentnost. Bluesky uživatelům poskytuje větší kontrolu nad jejich dat
 
 Společnost funguje jako [Public Benefit LLC](https://bsky.social/about/blog/2-7-2022-overview) (veřejně prospěšná
 společnost) a je vlastněna týmem Bluesky. Její CEO je [Toni Schneider](https://bsky.app/profile/toni.bsky.team),
-který v této roli [nahradil](https://toni.org/2026/03/09/coming-off-the-bench-for-bluesky/) zakladatelku
-[Jay Graber](https://bsky.app/profile/jay.bsky.team).
+který v této roli [nahradil](https://toni.org/2026/03/09/coming-off-the-bench-for-bluesky/) bývalou CEO [Jay Graber](https://bsky.app/profile/jay.bsky.team).
 
 Financování Bluesky (zatím) zajišťují investoři, kteří věří v hodnoty a cíle platformy.
 
