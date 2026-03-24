@@ -20,7 +20,7 @@ najde všechny posty, které zmínily uživatele `bsky.cz`. Další možnost je 
 
 ### Hledání ve svém obsahu `from:me`
 
-Pokud chcete vyhledávat pouze ve obsahu, stačí přidat `from:me` a poté uvést klíčová slova, která chcete vyhledat.
+Pokud chcete vyhledávat pouze ve svém obsahu, stačí přidat `from:me` a poté uvést klíčová slova, která chcete vyhledat.
 Případně můžete vyhledávat `mentions:me`, což vyfiltruje všechny posty, které zmínily váš účet.
 
 ### Hledání odkazů na doménu `domain:`
