@@ -8,7 +8,7 @@ sidebar:
 
 Podobně jako Spotify Wrapped, i Bluesky Wrapped vám na konci roku shrne vaše aktivity na Bluesky.
 
-https://www.madebyolof.com/bluesky-wrapped
+https://blueskywrapped.madebyolof.com/
 
 ## Kroužky a skupiny
 
